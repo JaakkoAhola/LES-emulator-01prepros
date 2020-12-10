@@ -1,20 +1,18 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
-# #                         Mounted nzp    file    windprofile  pres0   par/serial   runNroBegin  runNroEnd thermolevel postfix lista
-# python emulator_inputs.py True    200   $DESIGN  ideal        1017.8 serial        59           62        4           noNudge [12,26,28,40,52,54,69,76,85]
-"""
-Created on Wed Dec 21 14:20:00 2016
-
-@author: aholaj
-"""
-
-# -*- coding: utf-8 -*-
 """
 Created on Wed Aug 17 13:40:45 2016
 
-@author: aholaj
-"""
+@author: Jaakko Ahola, Finnish Meteorological Institute
+@licence: MIT licence Copyright
 
+Create input files for LES runs
+
+CLI usage:
+                         Mounted nzp    file    windprofile  pres0   par/serial   runNroBegin  runNroEnd thermolevel postfix lista
+ python emulator_inputs.py True    200   $DESIGN  ideal        1017.8 serial        59           62        4           noNudge [12,26,28,40,52,54,69,76,85]
+"""
+print(__doc__)
 import numpy as np
 
 
